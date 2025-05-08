@@ -30,7 +30,8 @@ h1{
     background-color: blue;
 }
 .container {
-  display: inline-grid;
+   display: grid;
+  column-gap: 50px;
 }
 .Galeria img{
     width: 100px;
