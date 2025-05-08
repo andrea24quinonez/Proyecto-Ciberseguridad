@@ -11,3 +11,16 @@ header {
     text-align: center;
     font-size: 50px;
 }
+.info {
+    text-align: center;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.Detalles {
+    background-color:cadetblue;
+    border: 5px solid #ddd;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
