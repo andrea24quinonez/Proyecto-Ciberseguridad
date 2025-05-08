@@ -22,7 +22,19 @@ h1{
 .galeria{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin:auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
 }
 .container {
   display: inline-grid;
+}
+.galeria img{
+    width: 100px;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    
 }
