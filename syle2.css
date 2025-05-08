@@ -19,7 +19,7 @@ h1{
     display: block;
 
 }
-.galeria{
+.Galeria{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     width: 95%;
@@ -31,10 +31,10 @@ h1{
 .container {
   display: inline-grid;
 }
-.galeria img{
+.Galeria img{
     width: 100px;
     vertical-align: top;
     height: 300px;
     object-fit: cover;
-    
+
 }
