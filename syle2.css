@@ -19,3 +19,7 @@ h1{
     display: block;
 
 }
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
