@@ -38,5 +38,17 @@ h1{
     vertical-align: top;
     height: 300px;
     object-fit: cover;
+    transition: transform 0.5s;
+}
+.Galeria < a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+
+}
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
 
 }
