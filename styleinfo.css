@@ -32,11 +32,3 @@ header {
     min-width: 250px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.Amenzas {
-    background-color:plum;
-    border: 5px solid #ddd;
-    padding: 20px;
-    flex: 1;
-    min-width: 250px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-} 
