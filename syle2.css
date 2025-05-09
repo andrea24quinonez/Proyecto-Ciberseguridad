@@ -1,1 +1,27 @@
-body
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: 
+}
+
+h1{
+font-weight: 400;
+text-align: center;
+padding: 20px 0;
+font-size: 40px;
+}
+
+.linea{
+background-color: orange;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+.Galeria{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+}
