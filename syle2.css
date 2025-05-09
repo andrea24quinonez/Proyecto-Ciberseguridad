@@ -21,7 +21,7 @@ h1{
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+    grid-template-columns: auto auto auto auto;
     margin:auto;
     grid-gap: 10px;
     padding: 40px 0;
@@ -38,6 +38,7 @@ h1{
     overflow: hidden;
     box-shadow: 0 0 6px rgba(0, 0, 0, 5);
     }
+    
 .container a:hover img{
     filter: blur(2px);
     transform: rotate(10deg) scale(1.3);
