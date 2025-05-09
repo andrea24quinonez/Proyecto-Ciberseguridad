@@ -21,7 +21,7 @@ h1{
 }
 .Galeria{
     display: grid;
-    row-gap: 50px;
+    row-gap: 500px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     width: 100%;
     margin:auto;
