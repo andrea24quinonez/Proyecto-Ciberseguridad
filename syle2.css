@@ -23,7 +23,7 @@ background-color: orange;
 }
 .Galeria{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+grid-template-columns: 1fr;
 width: 95%;
 margin: auto;
 grid-gap: 10px;
