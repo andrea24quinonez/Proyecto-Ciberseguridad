@@ -24,16 +24,7 @@ h1{
     grid-template-columns: 80px 200px auto 40px;
 
    }
-.container img{
-    width: 100%;
-    vertical-align:top;
-    height: 300px;
-    object-fit: cover;
-    transition: transform 0.5s;
-    display: block;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+
 
 }
 .Galeria a:hover img{
