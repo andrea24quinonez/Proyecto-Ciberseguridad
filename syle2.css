@@ -21,7 +21,7 @@ h1{
 }
 .container{
     display: grid;
-   row-gap: 50px;
+    column-gap: 50px;
     width: 95%;
     margin:auto;
     grid-gap: 10px;
@@ -30,7 +30,7 @@ h1{
    }
 .container img{
     width: 100%;
-    vertical-align:top ;
+    vertical-align:top;
     height: 300px;
     object-fit: cover;
     transition: transform 0.5s;
