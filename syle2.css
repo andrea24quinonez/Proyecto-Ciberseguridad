@@ -21,13 +21,8 @@ h1{
 }
 .Galeria{
     display: grid;
-    row-gap: 500px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    width: 100%;
-    margin:auto;
-    grid-gap: 10px;
-    padding: 40px 0;
-    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    
    }
 .Galeria img{
     width: 100px;
