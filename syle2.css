@@ -21,7 +21,7 @@ h1{
 }
 .container{
     display: grid;
-    column-gap: 50px;
+    grid-template-columns: 80px 200px auto 40px;
     width: 95%;
     margin:auto;
     grid-gap: 10px;
