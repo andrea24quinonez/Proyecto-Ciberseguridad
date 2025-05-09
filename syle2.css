@@ -38,7 +38,7 @@ h1{
     overflow: hidden;
     box-shadow: 0 0 6px rgba(0, 0, 0, 5);
     }
-.Galeria a:hover img{
+.container a:hover img{
     filter: blur(2px);
     transform: rotate(10deg) scale(1.3);
 }
