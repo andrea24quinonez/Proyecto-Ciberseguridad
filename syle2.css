@@ -27,6 +27,17 @@ h1{
     padding: 40px 0;
     overflow: hidden;
 }
+.container image{
+    width: 100%;
+    vertical-align:top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 5);
+    }
 .Galeria a:hover img{
     filter: blur(2px);
     transform: rotate(10deg) scale(1.3);
