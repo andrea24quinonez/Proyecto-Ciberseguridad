@@ -29,7 +29,6 @@ h1{
 }
 .Galeria image{
     width: 100%;
-    vertical-align:top;
     height: 300px;
     object-fit: cover;
     transition: transform 0.5s;
