@@ -19,7 +19,7 @@ h1{
     display: block;
 
 }
-.container {
+.Galeria {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin:auto;
@@ -27,7 +27,7 @@ h1{
     padding: 40px 0;
     overflow: hidden;
 }
-.container image{
+.Galeria image{
     width: 100%;
     vertical-align:top;
     height: 300px;
@@ -38,8 +38,8 @@ h1{
     overflow: hidden;
     box-shadow: 0 0 6px rgba(0, 0, 0, 5);
     }
-    
-.container a:hover img{
+
+.Galeria a:hover img{
     filter: blur(2px);
     transform: rotate(10deg) scale(1.3);
 }
