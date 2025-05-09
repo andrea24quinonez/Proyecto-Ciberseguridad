@@ -19,6 +19,13 @@ h1{
     display: block;
 
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+    margin:auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
 
 .Galeria a:hover img{
     filter: blur(2px);
