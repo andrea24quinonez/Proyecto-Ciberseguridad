@@ -33,6 +33,10 @@ h1{
   display: grid;
   row-gap: 50px;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
 .Galeria img{
     width: 100px;
     height: 300px;
