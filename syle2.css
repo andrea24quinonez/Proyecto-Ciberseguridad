@@ -2,6 +2,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+background-color:rgb(221, 160, 206);
 }
 
 body{
@@ -23,7 +24,7 @@ background-color: orange;
 }
 .Galeria{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+grid-template-columns: 1fr;
 width: 95%;
 margin: auto;
 grid-gap: 10px;
