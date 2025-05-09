@@ -30,6 +30,7 @@ h1{
 .Galeria image{
     width: 100%;
     height: 300px;
+    vertical-align:top;
     object-fit: cover;
     transition: transform 0.5s;
     display: block;
