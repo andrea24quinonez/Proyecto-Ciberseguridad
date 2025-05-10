@@ -40,11 +40,14 @@ background-color: #ca221f;
 }
 
 h1{
+background-color: #ca221f;
 font-weight: 400;
 text-align: center;
 padding: 20px 0;
 font-size: 40px;
+color: aliceblue;
 }
+
 .Galeria{
 display: flex;
 flex-direction: row;
