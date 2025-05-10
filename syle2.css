@@ -13,6 +13,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
 .navbar ul {
+background-color: #ca221f;
   list-style: none;
   display: flex;
   justify-content: center;
