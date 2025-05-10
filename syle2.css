@@ -90,4 +90,10 @@ overflow: hidden;
 .next{
     display: block;
     background: red;
+    color: aliceblue;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
 }
