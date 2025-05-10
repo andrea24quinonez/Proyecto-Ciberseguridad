@@ -50,7 +50,7 @@ color: aliceblue;
 
 .Galeria{
 display: flex;
-flex-direction: column;
+flex-direction: column-reverse;
 width: 400px;
 margin: auto;
 grid-gap: 10px;
