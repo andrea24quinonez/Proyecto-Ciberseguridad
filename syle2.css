@@ -4,16 +4,9 @@ margin: 0;
 padding: 0;
 background-color:#f5b9ae;
 }
-p.padding {
-  padding-left: 20%;
-}
-p.padding2 {
-  padding-left: 30%;
-}
 body{
 font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
 .back{
     padding: 32px 0;
     background-color:#ca221f ;
