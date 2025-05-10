@@ -2,39 +2,65 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-background-color:rgb(221, 160, 206);
+background-color:#f5b9ae;
 }
-
 body{
-font-family:monospace;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.back{
+    padding: 12px 0;
+    background-color:#ca221f ;
+
+}
+.navbar ul {
+background-color: #ca221f;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  margin: 0;
+  padding: 0;
+}
+.navbar a {
+background-color: #ca221f;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.menu{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
 }
 
 h1{
+background-color: #ca221f;
 font-weight: 400;
 text-align: center;
 padding: 20px 0;
 font-size: 40px;
+color: aliceblue;
 }
 
-.linea{
-background-color: orange;
-    height: 5px;
-    width: 100%;
-    display: block;
-}
 .Galeria{
-display: grid;
-grid-template-columns: 1fr;
-width: 95%;
+display: flex;
+flex-direction: column;
+width: 400px;
 margin: auto;
-grid-gap: 10px;
-padding: 40px 0;
+gap: 200px;
+padding: 60px 0;
 overflow: hidden;
 }
 .Galeria img {
-    width: 100px;
+    width: 200px;
     vertical-align: top;
-    height: 300px;
+    height: auto;
     object-fit: cover;
     transition: transform 0.5s;
 
@@ -90,4 +116,16 @@ overflow: hidden;
 .next{
     display: block;
     background: red;
+    color: aliceblue;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+footer{
+    background-color: #ca221f;
+    color: aliceblue;
+    text-align: center;
+    padding: 2cm;
 }
