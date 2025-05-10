@@ -123,3 +123,9 @@ overflow: hidden;
     text-decoration: none;
     text-align: center;
 }
+.footer{
+    background-color: #ca221f;
+    color: aliceblue;
+    text-align: center;
+    padding: 2cm;
+}
