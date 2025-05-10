@@ -17,7 +17,7 @@ background-color: #ca221f;
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 40px; /* Espacio entre enlaces */
+  gap: 40px; 
   margin: 0;
   padding: 0;
 }
@@ -50,7 +50,7 @@ color: aliceblue;
 
 .Galeria{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 width: 100px;
 margin: auto;
 grid-gap: 10px;
