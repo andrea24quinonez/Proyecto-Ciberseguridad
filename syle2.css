@@ -8,10 +8,20 @@ background-color:#f5b9ae;
 body{
 font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 .back{
     padding: 32px 0;
     background-color:#ca221f ;
 
+}
+.menu .navbar ul il{
+    font-size: 18px;
+    padding: 20px;
+    color: aliceblue;
+    display: block;
+}
+.menu .navbar ul il:hover{
+    color:beige;
 }
 .menu{
     position: absolute;
