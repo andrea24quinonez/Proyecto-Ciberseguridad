@@ -2,11 +2,11 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-background-color:azure;
+background-color:#f5b9ae;
 }
 
 body{
-font-family:monospace;
+font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h1{
@@ -17,7 +17,7 @@ font-size: 40px;
 }
 
 .linea{
-background-color: orange;
+background-color: #ca221f;
     height: 5px;
     width: 100%;
     display: block;
