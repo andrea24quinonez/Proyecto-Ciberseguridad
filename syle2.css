@@ -50,15 +50,15 @@ color: aliceblue;
 
 .Galeria{
 display: flex;
-flex-direction: column;
-width: 400px;
-margin: auto;
-gap: 200px;
-padding: 60px 0;
-overflow: hidden;
+    flex-direction: column; 
+    width: 400px;
+    margin: auto;
+    gap: 0px; 
+    padding: 0; 
+    overflow: hidden;
 }
 .Galeria img {
-    width: 200px;
+    width: 100%; 
     vertical-align: top;
     height: auto;
     object-fit: cover;
