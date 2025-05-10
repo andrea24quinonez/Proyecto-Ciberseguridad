@@ -12,14 +12,19 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     background-color:#ca221f ;
 
 }
-.menu .navbar ul il{
-    font-size: 18px;
-    padding: 20px;
-    color: aliceblue;
-    display: block;
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Espacio entre enlaces */
+  margin: 0;
+  padding: 0;
 }
-.menu .navbar ul il:hover{
-    color:beige;
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 .menu{
     position: absolute;
