@@ -127,5 +127,7 @@ footer{
     background-color: #ca221f;
     color: aliceblue;
     text-align: center;
+    text-decoration: none;
+    font-weight: none;
     padding: 2cm;
 }
