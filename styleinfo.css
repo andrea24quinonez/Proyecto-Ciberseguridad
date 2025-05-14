@@ -1,45 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: gold;
-    display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    flex-direction: column;
+    padding: 20px;
 }
-header {
-    background-color: indianred;
-    color: white;
-    padding: 1rem;
+.grid-container>* {
+    box-shadow: 10px 6px 37px -13px cornflowerblue;
+    border-radius: 10px;
+    padding: 10px;
     text-align: center;
-    font-size: 50px;
+    font-weight: 500;
 }
-.info {
-    text-align: center;
-    font-size: larger;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-}
-.Detalles {
-    background-color:cadetblue;
-    border: 5px solid #ddd;
-    padding: 20px;
-    flex: 1;
-    min-width: 250px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-.Concepto {
-    background-color:green;
-    border: 5px solid #ddd;
-    padding: 20px;
-    flex: 1;
-    min-width: 250px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-.Amenazas {
-    background-color:plum;
-    border: 5px solid #ddd;
-    padding: 20px;
-    flex: 1;
-    min-width: 250px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-nav {
-    
+.grid-container {
+    display: grid;
+    gap: 20px;
+   grid-template:
+   "header" 200px
+   "navbar" 50px
+   "sidebar" 65px
+   "main"80px
+   "footer"30px;
+   .header {
+grid-area: header;
+background-color: aquamarine;
+   } 
+   .navbar {
+    grid-area: navbar;
+    color: darksalmon;
+   }
+   .sidebar {
+    grid-area: sidebar;
+    color: deeppink;
+   }
+   .main{
+    grid-area: main;
+    color: indigo;
+   }
+   .footer {
+    grid-area: footer;
+    color: brown;
+   }
 }
