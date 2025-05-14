@@ -5,8 +5,9 @@
 }
 body {
     background-color: gold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .grid-container>* {
     box-shadow: 10px 6px 37px -13px cornflowerblue;
@@ -30,19 +31,19 @@ background-color: aquamarine;
    } 
    .navbar {
     grid-area: navbar;
-    color: darksalmon;
+    background-color: darksalmon;
    }
    .sidebar {
     grid-area: sidebar;
-    color: deeppink;
+    background-color: deeppink;
    }
    .main{
     grid-area: main;
-    color: indigo;
+    background-color:lawngreen
    }
    .footer {
     grid-area: footer;
-    color: brown;
+    background-color: brown;
    }
    @media (min-width:992px) {
      grid-template:
@@ -51,4 +52,31 @@ background-color: aquamarine;
    "footer footer footer" auto/
    200px auto 200px;
    }
+}
+.sidebar {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.menu {
+    list-style: none;
+}
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.tarjeta {
+    background-color:cadetblue;
+    border: 5px solid #ddd;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
